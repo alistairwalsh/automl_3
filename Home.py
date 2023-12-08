@@ -66,3 +66,6 @@ st.image('features_heatmap.png', caption='features importance across models')
 
 ### Spearman Correlation of Models
 st.image('correlation_heatmap.png', caption='models spearman correlation')
+
+with open('golden_features.json') as infile:
+    st.json(infile.read())
