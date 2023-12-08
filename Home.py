@@ -52,17 +52,17 @@ st.markdown('''
 |              | [51_NeuralNetwork](51_NeuralNetwork/README.md)                                                                     | Neural Network | rmse          |        97.3493 |       437.84 |                   4.7767 |
 |              | [Ensemble](Ensemble/README.md)                                                                                     | Ensemble       | rmse          |        15.6548 |         0.11 |                   0.3057 |
 
+
+''')
+
 ### AutoML Performance
-![AutoML Performance](ldb_performance.png)
+st.image('ldb_performance.png', caption='AutoML Performance')
 
 ### AutoML Performance Boxplot
-![AutoML Performance Boxplot](ldb_performance_boxplot.png)
+st.image('ldb_performance_boxplot.png', caption='AutoML Performance Boxplot')
 
 ### Features Importance
-![features importance across models](features_heatmap.png)
-
-
+st.image('features_heatmap.png', caption='features importance across models')
 
 ### Spearman Correlation of Models
-![models spearman correlation](correlation_heatmap.png)
-''')
+st.image('correlation_heatmap.png', caption='models spearman correlation')
