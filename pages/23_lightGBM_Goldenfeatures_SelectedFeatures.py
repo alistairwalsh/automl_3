@@ -40,21 +40,18 @@ rmse
 
 
 
+
+''')
+
 ## Learning curves
-![Learning curves](learning_curves.png)
+st.images('learning_curves.png', caption='Learning curves')
 
 ## Permutation-based Importance
-![Permutation-based Importance](permutation_importance.png)
+st.images('permutation_importance.png', caption='Permutation-based Importance')
+
 ## True vs Predicted
-
-![True vs Predicted](true_vs_predicted.png)
-
+st.images('true_vs_predicted.png', caption='True vs Predicted')
 
 ## Predicted vs Residuals
+st.images('predicted_vs_residuals.png', caption='Predicted vs Residuals')
 
-![Predicted vs Residuals](predicted_vs_residuals.png)
-
-
-
-[<< Go back](../README.md)
-''')
