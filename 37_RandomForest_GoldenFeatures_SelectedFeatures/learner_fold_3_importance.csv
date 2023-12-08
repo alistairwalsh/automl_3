@@ -1,0 +1,5 @@
+feature,mean_importance
+Frontal_Inf_Orb_R <=> Insula_R,0.0
+Insula_R <=> Temporal_Sup_R_diff_Cerebelum_3_L <=> Vermis_1_2,0.013275523917373322
+Hippocampus_L <=> Cerebelum_3_R,0.015122821934717413
+Temporal_Inf_R <=> Cerebelum_7b_L_ratio_Frontal_Inf_Oper_L <=> Supp_Motor_Area_L,0.024768118953265316

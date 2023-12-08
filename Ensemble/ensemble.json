@@ -1,0 +1,16 @@
+{
+    "name": "Ensemble",
+    "ml_task": "regression",
+    "optimize_metric": "rmse",
+    "selected_models": [
+        {
+            "model": "23_LightGBM_GoldenFeatures_SelectedFeatures",
+            "repeat": 1.0
+        }
+    ],
+    "predictions_fname": "Ensemble/predictions_ensemble.csv",
+    "metric_name": "rmse",
+    "final_loss": 15.65477261279251,
+    "train_time": 0.10814571380615234,
+    "is_stacked": false
+}
