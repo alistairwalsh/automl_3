@@ -44,14 +44,14 @@ rmse
 ''')
 
 ## Learning curves
-st.images('23_LightGBM_GoldenFeatures_SelectedFeatures/learning_curves.png', caption='Learning curves')
+st.image('23_LightGBM_GoldenFeatures_SelectedFeatures/learning_curves.png', caption='Learning curves')
 
 ## Permutation-based Importance
-st.images('23_LightGBM_GoldenFeatures_SelectedFeatures/permutation_importance.png', caption='Permutation-based Importance')
+st.image('23_LightGBM_GoldenFeatures_SelectedFeatures/permutation_importance.png', caption='Permutation-based Importance')
 
 ## True vs Predicted
-st.images('23_LightGBM_GoldenFeatures_SelectedFeatures/true_vs_predicted.png', caption='True vs Predicted')
+st.image('23_LightGBM_GoldenFeatures_SelectedFeatures/true_vs_predicted.png', caption='True vs Predicted')
 
 ## Predicted vs Residuals
-st.images('23_LightGBM_GoldenFeatures_SelectedFeatures/predicted_vs_residuals.png', caption='Predicted vs Residuals')
+st.image('23_LightGBM_GoldenFeatures_SelectedFeatures/predicted_vs_residuals.png', caption='Predicted vs Residuals')
 
