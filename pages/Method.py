@@ -30,3 +30,6 @@ st.write('''
          ''')
 
 st.image('ldb_performance_boxplot.png')
+
+st.write('''As the plots including the Neural networks make it difficult to see the differences in the remaining models, neural networks will be excluded from 
+         reporting in tables and images from this point on''')
