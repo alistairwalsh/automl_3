@@ -2,7 +2,7 @@ import streamlit as st
 
 st.header('Method')
 
-st.markdown('''The correlation matrices for each 61 participants was initially flattened and repeated correlations removed (i.e. the upper triangle), as well as
+st.write('''The correlation matrices for each 61 participants was initially flattened and repeated correlations removed (i.e. the upper triangle), as well as
              the diagonal that represents the correlation of an area to itself which is always 1. Each participant was scanned at two timepoints - 90 days and 365 
             days and a TDT was administered at the time of the scan. Giving 122 examples of scans with corresponding TDT score from the affected hand. 
             Thus the total data for training was 122 rows x 6670 columns and targets for prediction and scoring were 122 corresponding TDT scores. A train-test 
@@ -11,7 +11,7 @@ st.markdown('''The correlation matrices for each 61 participants was initially f
             mix of 90 day and 365 day data in both training and testing. This information about which timepoint data was from was not included in the training data 
             ''')
 
-st.markdown('''A 5 fold cross validation was used in the training runs, meaning that models were trained and tuned on 80% of the avaiable training 
+st.write('''A 5 fold cross validation was used in the training runs, meaning that models were trained and tuned on 80% of the avaiable training 
             data and tested on the remaining 20% to detect overfitting.  
 
 ''')
