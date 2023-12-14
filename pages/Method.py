@@ -8,10 +8,16 @@ st.write('''The correlation matrices for each 61 participants was initially flat
             Thus the total data for training was 122 rows x 6670 columns and targets for prediction and scoring were 122 corresponding TDT scores. A train-test 
             split of 75% was performed with sklearn and selection fo model, tuning of hyper parameteres and creation of additional features was 
             performed with 75% of the data, with 25% of the data held aside as validation data. The data was stratified by timepoint to ensure a similair 
-            mix of 90 day and 365 day data in both training and testing. This information about which timepoint data was from was not included in the training data 
+            mix of 90 day and 365 day data in both training and validation data. This information about which timepoint data was from was not included in the training data 
             ''')
 
 st.write('''A 5 fold cross validation was used in the training runs, meaning that models were trained and tuned on 80% of the avaiable training 
             data and tested on the remaining 20% to detect overfitting.  
 
 ''')
+
+st.header('Results')
+
+st.write('''
+ LightGBM, Xgboost, CatBoost, NeuralNetwork, and RandomForest models were trained and evaluated
+         ''')
