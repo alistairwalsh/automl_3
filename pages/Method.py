@@ -10,3 +10,8 @@ st.markdown('''The correlation matrices for each 61 participants was initially f
             performed with 75% of the data, with 25% of the data held aside as validation data. The data was stratified by timepoint to ensure a similair 
             mix of 90 day and 365 day data in both training and testing. This information about which timepoint data was from was not included in the training data 
             ''')
+
+st.markdown('''A 5 fold cross validation was used in the training runs, meaning that models were trained and tuned on 80% of the avaiable training 
+            data and tested on the remaining 20% to detect overfitting.  
+
+''')
