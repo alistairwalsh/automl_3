@@ -19,5 +19,14 @@ st.write('''A 5 fold cross validation was used in the training runs, meaning tha
 st.header('Results')
 
 st.write('''
- LightGBM, Xgboost, CatBoost, NeuralNetwork, and RandomForest models were trained and evaluated
+ LightGBM, Xgboost, CatBoost, NeuralNetwork, and RandomForest models were trained and evaluated. Feature selection was perrformed and golden features created.
          ''')
+
+st.header('Discussion')
+
+st.write('''
+         Neural networks performed poorly, or at least inconsistently, compared to other types of models. This is not surprising given the limited amout of data
+          for training and neural networks known poor performance without a large amount of training data. 
+         ''')
+
+st.image('ldb_performance_boxplot.png')
