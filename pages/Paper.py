@@ -24,16 +24,15 @@ st.write('''
          structures or functional areas. Researchers use the AAL Atlas to partition the brain into distinct regions, facilitating the analysis and interpretation of neuroimaging data, particularly from 
          techniques like functional Magnetic Resonance Imaging (fMRI).
 
-        Neural networks typically require larger amounts of data compared to classical machine learning models. This is because neural networks, especially deep learning models, have a high number of 
-         parameters that need to be optimized, and a large dataset helps prevent overfitting and allows the model to generalize well to unseen data.
-
-         
         The touch discrimination task (TDT) in the context of sensory loss in stroke involves assessing an individual's ability to perceive and distinguish between different tactile stimuli. Stroke can lead to sensory 
          impairments, including changes in the ability to discriminate touch sensations. In the task, participants may be presented with various tactile stimuli, such as different textures, temperatures, 
          or pressure levels, and are asked to identify or discriminate between them.
 
         This task aims to evaluate the extent of sensory deficits, particularly in terms of the precision and accuracy with which individuals can perceive and differentiate tactile stimuli. The findings from touch 
          discrimination tasks contribute valuable insights into the impact of stroke on sensory processing and inform rehabilitation strategies tailored to address specific sensory impairments.
+
+        Neural networks typically require larger amounts of data compared to classical machine learning models. This is because neural networks, especially deep learning models, have a high number of 
+         parameters that need to be optimized, and a large dataset helps prevent overfitting and allows the model to generalize well to unseen data.
 
         Classical machine learning models, such as decision trees or linear regression, may perform reasonably well with smaller datasets, as they have fewer parameters and dependencies to learn.
 
