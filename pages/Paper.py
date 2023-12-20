@@ -73,6 +73,16 @@ st.write('''
          This model essentially ignores a significant proportion of data with small gradients in favour of features with larger gradients as these features play a more important role in prediction accuracy.
          Gradient-based One-Side Sampling (GOSS) can obtain quite accurate estimation of the information gain with a much smaller data size. 
            ''')
+
+st.image('ldb_performance_boxplot.png')
+
+st.write('''
+         The process of creating new features found combinations that performed well and warrant further exploration for their efficacy in directing rehabilitation efforts and prediction of likely recovery outcomes.
+         The ratio of the correlation between the Temporal_Inf_R <=> Cerebelum_7b_L and the Frontal_Inf_Oper_L <=> Supp_Motor_Area_L and the difference in correlation between the Insula_R <=> Temporal_Sup_R and 
+         Cerebelum_3_L <=> Vermis_1_2 contain information that is a valuable predictor across the majority of the group.
+         ''')
+
+st.image('23_LightGBM_GoldenFeatures_SelectedFeatures/permutation_importance.png', caption='Permutation-based Importance')
          
 st.write(r'''@inproceedings{NIPS2017_6449f44a,
  author = {Ke, Guolin and Meng, Qi and Finley, Thomas and Wang, Taifeng and Chen, Wei and Ma, Weidong and Ye, Qiwei and Liu, Tie-Yan},
@@ -92,9 +102,8 @@ st.header('Discussion')
 
 
 
-st.image('ldb_performance_boxplot.png')
+
 
 st.write('''As the plots including the Neural networks make it difficult to see the differences in the remaining models, neural networks will be excluded from 
          reporting in tables and images from this point on''')
 
-st.image('23_LightGBM_GoldenFeatures_SelectedFeatures/permutation_importance.png', caption='Permutation-based Importance')
