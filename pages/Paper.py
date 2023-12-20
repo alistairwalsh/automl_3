@@ -66,7 +66,7 @@ st.write('''
         Neural networks performed poorly, or at least inconsistently, compared to other types of models and ofter performed worse than baseline. This is not surprising given the limited amout of data
           for training and neural networks known poor performance without a large amount of training data. 
          
-        Light Gradient Boosting Machine (LightGBM) performed consistently well, to the point where an attempt at creating an ensemble copuld do no better that the LightGBM with feature selection and Golden features
+        Light Gradient Boosting Machine (LightGBM) performed consistently well, to the point where an attempt at creating an ensemble from the avaialable trained models did no better that the LightGBM with feature selection and Golden features
          acheived on its own. 
          
         LightGBM is a Machine Learning library that provides algorithms which utilise a gradient boosting framework.
