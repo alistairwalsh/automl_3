@@ -59,14 +59,19 @@ st.write('''A 5 fold cross validation was used in the training runs, meaning tha
 st.header('Results')
 
 st.write('''
+         
+        A baseline score was established calculating the error when the mean score is used as a prediction for every case, this simplest of models is then a comparison for the performance of more complex models.
         LightGBM, Xgboost, CatBoost, NeuralNetwork, and RandomForest models were trained and evaluated. Feature selection was perrformed useing Permutation based feature importance, and golden features created.
          Golden Features are combinations and permutations of features from the dataset that a decision tree analysis suggest performed well.
 
-        Neural networks performed poorly, or at least inconsistently, compared to other types of models. This is not surprising given the limited amout of data
+        Neural networks performed poorly, or at least inconsistently, compared to other types of models and ofter performed worse than baseline. This is not surprising given the limited amout of data
           for training and neural networks known poor performance without a large amount of training data. 
          
-        LightGBM (Light Gradient Boosting Machine) is a Machine Learning library that provides algorithms the utilise a gradient boosting framework.
-         This model essentially ignores a significant proportion of data with small gradients as features with larger gradients play a more important role in prediction accuracy.
+        Light Gradient Boosting Machine (LightGBM) performed consistently well, to the point where an attempt at creating an ensemble copuld do no better that the LightGBM with feature selection and Golden features
+         acheived on its own. 
+         
+        LightGBM is a Machine Learning library that provides algorithms which utilise a gradient boosting framework.
+         This model essentially ignores a significant proportion of data with small gradients in favour of features with larger gradients as these features play a more important role in prediction accuracy.
          Gradient-based One-Side Sampling (GOSS) can obtain quite accurate estimation of the information gain with a much smaller data size. 
            ''')
          
