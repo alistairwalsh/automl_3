@@ -97,5 +97,9 @@ st.write('''As the plots including the Neural networks make it difficult to see 
 st.image('23_LightGBM_GoldenFeatures_SelectedFeatures/permutation_importance.png', caption='Permutation-based Importance')
 
 st.write('''
-         Golden Features are combinations and permutations of features from the dataset that performed well.
+         Golden Features are combinations and permutations of features from the dataset that a decision tree analysis suggest performed well.
+         ''')
+
+st.write('''
+         Permutation based feature importance
          ''')
