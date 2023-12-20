@@ -64,7 +64,9 @@ st.write('''
         LightGBM (Light Gradient Boosting Machine) is a Machine Learning library that provides algorithms under gradient boosting framework developed by Microsoft.
          This model essentially ignores a significant proportion of data with small gradients as features with larger gradients play a more important role in predicting a score.
          Gradient-based One-Side Sampling (GOSS) can obtain quite accurate estimation of the information gain with a much smaller data size. 
-         @inproceedings{NIPS2017_6449f44a,
+           ''')
+         
+st.latex(r'''         @inproceedings{NIPS2017_6449f44a,
  author = {Ke, Guolin and Meng, Qi and Finley, Thomas and Wang, Taifeng and Chen, Wei and Ma, Weidong and Ye, Qiwei and Liu, Tie-Yan},
  booktitle = {Advances in Neural Information Processing Systems},
  editor = {I. Guyon and U. Von Luxburg and S. Bengio and H. Wallach and R. Fergus and S. Vishwanathan and R. Garnett},
@@ -75,8 +77,8 @@ st.write('''
  volume = {30},
  year = {2017}
 }
-
-         ''')
+''')
+       
 
 st.header('Discussion')
 
