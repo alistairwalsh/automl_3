@@ -59,7 +59,7 @@ st.write('''A 5 fold cross validation was used in the training runs, meaning tha
 st.header('Results')
 
 st.write('''
- LightGBM, Xgboost, CatBoost, NeuralNetwork, and RandomForest models were trained and evaluated. Feature selection was perrformed and golden features created.
+        LightGBM, Xgboost, CatBoost, NeuralNetwork, and RandomForest models were trained and evaluated. Feature selection was perrformed and golden features created.
          
         LightGBM (Light Gradient Boosting Machine) is a Machine Learning library that provides algorithms the utilise a gradient boosting framework.
          This model essentially ignores a significant proportion of data with small gradients as features with larger gradients play a more important role in prediction accuracy.
