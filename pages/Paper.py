@@ -61,6 +61,9 @@ st.header('Results')
 st.write('''
         LightGBM, Xgboost, CatBoost, NeuralNetwork, and RandomForest models were trained and evaluated. Feature selection was perrformed useing Permutation based feature importance, and golden features created.
          Golden Features are combinations and permutations of features from the dataset that a decision tree analysis suggest performed well.
+
+        Neural networks performed poorly, or at least inconsistently, compared to other types of models. This is not surprising given the limited amout of data
+          for training and neural networks known poor performance without a large amount of training data. 
          
         LightGBM (Light Gradient Boosting Machine) is a Machine Learning library that provides algorithms the utilise a gradient boosting framework.
          This model essentially ignores a significant proportion of data with small gradients as features with larger gradients play a more important role in prediction accuracy.
@@ -85,10 +88,7 @@ st.latex(r''' \bibliography{refs}
 
 st.header('Discussion')
 
-st.write('''
-         Neural networks performed poorly, or at least inconsistently, compared to other types of models. This is not surprising given the limited amout of data
-          for training and neural networks known poor performance without a large amount of training data. 
-         ''')
+
 
 st.image('ldb_performance_boxplot.png')
 
