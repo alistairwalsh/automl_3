@@ -66,7 +66,9 @@ st.write('''
          Gradient-based One-Side Sampling (GOSS) can obtain quite accurate estimation of the information gain with a much smaller data size. 
            ''')
          
-st.latex(r'''         @inproceedings{NIPS2017_6449f44a,
+st.latex(r''' \bibliography{refs}
+         
+                 @inproceedings{NIPS2017_6449f44a,
  author = {Ke, Guolin and Meng, Qi and Finley, Thomas and Wang, Taifeng and Chen, Wei and Ma, Weidong and Ye, Qiwei and Liu, Tie-Yan},
  booktitle = {Advances in Neural Information Processing Systems},
  editor = {I. Guyon and U. Von Luxburg and S. Bengio and H. Wallach and R. Fergus and S. Vishwanathan and R. Garnett},
