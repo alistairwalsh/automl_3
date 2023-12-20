@@ -61,7 +61,7 @@ st.header('Results')
 st.write('''
  LightGBM, Xgboost, CatBoost, NeuralNetwork, and RandomForest models were trained and evaluated. Feature selection was perrformed and golden features created.
          
-         LightGBM (Light Gradient Boosting Machine) is a Machine Learning library that provides algorithms under gradient boosting framework developed by Microsoft.
+        LightGBM (Light Gradient Boosting Machine) is a Machine Learning library that provides algorithms under gradient boosting framework developed by Microsoft.
          This model essentially ignores a significant proportion of data with small gradients as features with larger gradients play a more important role in predicting a score.
          Gradient-based One-Side Sampling (GOSS) can obtain quite accurate estimation of the information gain with a much smaller data size. 
          @inproceedings{NIPS2017_6449f44a,
