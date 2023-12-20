@@ -15,7 +15,7 @@ st.write('''
          Hyperparameter tuning involves optimizing the configuration settings, known as hyperparameters, of a machine learning model to achieve better performance. These hyperparameters are not learned from the 
          data but are set prior to the training process. The goal of hyperparameter tuning is to find the combination that results in the most effective and accurate model for a given task or dataset.
 
-         The AAL Atlas (Automated Anatomical Labeling Atlas) is a widely used brain atlas in neuroimaging research. It provides a predefined set of anatomical regions, each associated with specific brain 
+        The AAL Atlas (Automated Anatomical Labeling Atlas) is a widely used brain atlas in neuroimaging research. It provides a predefined set of anatomical regions, each associated with specific brain 
          structures or functional areas. Researchers use the AAL Atlas to partition the brain into distinct regions, facilitating the analysis and interpretation of neuroimaging data, particularly from 
          techniques like functional Magnetic Resonance Imaging (fMRI).
 
@@ -23,7 +23,7 @@ st.write('''
          level-dependent (BOLD) signal fluctuations in one brain region correlate with those in another. By examining these correlation patterns, researchers gain insights into the synchronized activity and 
          communication between different brain areas, aiding in the understanding of functional networks and neural processes.
 
-         Neural networks typically require larger amounts of data compared to classical machine learning models. This is because neural networks, especially deep learning models, have a high number of 
+        Neural networks typically require larger amounts of data compared to classical machine learning models. This is because neural networks, especially deep learning models, have a high number of 
          parameters that need to be optimized, and a large dataset helps prevent overfitting and allows the model to generalize well to unseen data.
 
          
