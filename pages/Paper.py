@@ -79,7 +79,7 @@ st.image('ldb_performance_boxplot.png')
 st.write('''
          The process of creating new features found combinations that performed well and warrant further exploration for their efficacy in directing rehabilitation efforts and prediction of likely recovery outcomes.
          The ratio of the correlation between the Temporal_Inf_R <=> Cerebelum_7b_L and the Frontal_Inf_Oper_L <=> Supp_Motor_Area_L and the difference in correlation between the Insula_R <=> Temporal_Sup_R and 
-         Cerebelum_3_L <=> Vermis_1_2 contain information that is a valuable predictor across the majority of the group.
+         Cerebelum_3_L <=> Vermis_1_2 contain information that is a valuable predictor of the acheived TDT score across the majority of the group.
          ''')
 
 st.image('23_LightGBM_GoldenFeatures_SelectedFeatures/permutation_importance.png', caption='Permutation-based Importance')
